@@ -21,7 +21,7 @@ Aqui registro exercícios, anotações e projetos realizados durante a jornada. 
 ## 📈 Progresso do curso
 - [x] Python Basics  
 - [x] Strings and Lists  
-- [ ] Dictionaries and Functions  
+- [x] Dictionaries and Functions  
 - [ ] Debugging  
 - [ ] Object-Oriented Programming  
 - [ ] Functional Programming  
