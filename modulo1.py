@@ -1,3 +1,10 @@
+'''
+Descrição:
+Neste projeto, você aprenderá conceitos fundamentais de programação em Python, como variáveis, funções, loops e declarações condicionais. 
+Você usará esses conceitos para codificar seus primeiros programas.
+'''
+
+
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'happycoding'
 

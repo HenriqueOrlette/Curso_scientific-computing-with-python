@@ -1,3 +1,10 @@
+'''
+Descrição:
+Funções Lambda oferecem uma forma concisa de escrever pequenas funções descartáveis em seu código.
+Neste projeto, você explorará o poder das Funções Lambda criando um rastreador de despesas. 
+O aplicativo resultante demonstrará como você pode usar Funções Lambda para operações eficientes e otimizadas.
+'''
+
 # Adiciona despesa a lista de despesas
 def add_expense(expenses, amount, category):
     expenses.append({'amount': amount, 'category': category})

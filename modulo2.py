@@ -1,5 +1,8 @@
-#Algoritmo de Luhn
-
+'''
+Descrição:
+O Algoritmo de Luhn é amplamente utilizado para verificação de erros em diversas aplicações, como a validação de números de cartão de crédito.
+Ao desenvolver este projeto, você ganhará experiência trabalhando com computações numéricas e manipulação de strings.
+'''
 def verify_card_number(card_number):
     sum_of_odd_digits = 0
     #Inverte o número do cartão
