@@ -1,3 +1,10 @@
+'''
+Descrição:
+Um módulo Python é um arquivo que contém um conjunto de declarações e definições que você pode usar em seu código. 
+Neste projeto, você aprenderá como importar módulos da biblioteca padrão do Python. 
+Você também aprenderá como usar Expressões Regulares ao construir seu próprio programa gerador de senhas.
+'''
+
 import re
 import secrets
 import string
