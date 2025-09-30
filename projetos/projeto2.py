@@ -7,6 +7,11 @@ def add_time(start, duration, day=None):
 
     dias_depois, novo_minuto = '', 0
     novo_periodo = periodo
+
+    # Tratamento do dia da semana
+    if day:
+        dia_tratado = (day.lower()).capitalize()
+        novo_dia = 0
     
     # Trocar para 24h (0-23)
     if periodo == 'PM':
@@ -41,7 +46,15 @@ def add_time(start, duration, day=None):
             nova_hora -= 12
 
     resultado = f"{nova_hora}:{novo_minuto} {novo_periodo}"
-    
+
+    # Cálculo se for incluído o dia da semana
+    if day:
+        novo_dia = DIAS_DA_SEMANA.index(dia_tratado)
+        novo_dia = (novo_dia + dias_depois) % 7
+        novo_dia = DIAS_DA_SEMANA[novo_dia]
+        resultado += f", {novo_dia}"
+
+    # Lógica do print
     if dias_depois == '':
         resultado = resultado
     elif dias_depois == 1:
@@ -52,6 +65,6 @@ def add_time(start, duration, day=None):
     return resultado
 
 
-print(add_time('11:59 PM', '24:05'))
+print(add_time('8:16 PM', '466:02'))
     
 
