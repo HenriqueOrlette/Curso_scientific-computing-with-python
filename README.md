@@ -22,9 +22,9 @@ Aqui registro exercícios, anotações e projetos realizados durante a jornada. 
 - [x] Python Basics  
 - [x] Strings and Lists  
 - [x] Dictionaries and Functions  
-- [ ] Debugging  
-- [ ] Object-Oriented Programming  
-- [ ] Functional Programming  
+- [x] Debugging  
+- [x] Object-Oriented Programming  
+- [x] Functional Programming  
 - [ ] Working with Files  
 - [ ] Final Projects  
 
